@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Catcher</string>
+    <string name="web_login_title">平台登录</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 学在重邮的校园站点只监听 80 端口，属于已知的明文站点；其余域名一律要求 TLS -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">lms.tc.cqupt.edu.cn</domain>
+        <domain includeSubdomains="true">tc.cqupt.edu.cn</domain>
+    </domain-config>
+</network-security-config>

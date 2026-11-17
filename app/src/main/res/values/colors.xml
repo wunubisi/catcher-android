@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="catcher_background">#FFF6F7FB</color>
+    <!-- 自适应图标背景：与图标本身一致的白底 -->
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+</resources>
